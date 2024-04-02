@@ -1,0 +1,235 @@
+CRITICAL - 2024-03-05 20:08:10 --> ErrorException: Undefined variable $nascimento
+in APPPATH/Controllers/Form.php on line 17.
+ 1 APPPATH/Controllers/Form.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:09:48 --> TypeError: Unsupported operand types: string - int
+in APPPATH/Controllers/Form.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:10:56 --> Error: Call to undefined function App\Controllers\int()
+in APPPATH/Controllers/Form.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:11:44 --> ErrorException: Undefined variable $nascimento
+in APPPATH/Controllers/Form.php on line 18.
+ 1 APPPATH/Controllers/Form.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:13:24 --> ErrorException: Undefined variable $nascimento
+in APPPATH/Controllers/Form.php on line 18.
+ 1 APPPATH/Controllers/Form.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:13:33 --> ErrorException: Undefined variable $nascimento
+in APPPATH/Controllers/Form.php on line 18.
+ 1 APPPATH/Controllers/Form.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:13:46 --> ErrorException: Undefined variable $indice_salario
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:17:15 --> ErrorException: Undefined variable $salario
+in APPPATH/Controllers/Form.php on line 51.
+ 1 APPPATH/Controllers/Form.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:18:12 --> ErrorException: Undefined variable $indice_salario
+in APPPATH/Views/resposta.php on line 45.
+ 1 APPPATH/Views/resposta.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:20:04 --> ParseError: syntax error, unexpected single-quoted string "indice_", expecting ")"
+in APPPATH/Controllers/Form.php on line 15.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:20:16 --> ParseError: syntax error, unexpected single-quoted string "indice_", expecting ")"
+in APPPATH/Controllers/Form.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:20:24 --> ParseError: syntax error, unexpected single-quoted string "indice_", expecting ")"
+in APPPATH/Controllers/Form.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:20:42 --> ErrorException: Undefined variable $indice_salario
+in APPPATH/Views/resposta.php on line 45.
+ 1 APPPATH/Views/resposta.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:21:06 --> ErrorException: Undefined variable $indice_idade
+in APPPATH/Views/resposta.php on line 47.
+ 1 APPPATH/Views/resposta.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:28:34 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH/Controllers/Form.php on line 85.
+ 1 APPPATH/Controllers/Form.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:29:41 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH/Controllers/Form.php on line 88.
+ 1 APPPATH/Controllers/Form.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:36:30 --> ErrorException: Array to string conversion
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(90): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:38:43 --> ErrorException: Array to string conversion
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:38:44 --> ErrorException: Array to string conversion
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:38:57 --> ErrorException: Array to string conversion
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(91): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:40:47 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH/Views/resposta.php on line 44.
+ 1 APPPATH/Views/resposta.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/app/Views/resposta.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Form.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:46:21 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH/Controllers/Form.php on line 90.
+ 1 APPPATH/Controllers/Form.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:47:19 --> ErrorException: Trying to access array offset on value of type int
+in APPPATH/Controllers/Form.php on line 90.
+ 1 APPPATH/Controllers/Form.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-05 20:51:07 --> TypeError: Unsupported operand types: string + int
+in APPPATH/Views/resposta.php on line 44.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Form.php(91): view()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Form->receiveData()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/Alan Motta/4C/DSI/codeigniter4-framework-7d393f8/public/index.php')

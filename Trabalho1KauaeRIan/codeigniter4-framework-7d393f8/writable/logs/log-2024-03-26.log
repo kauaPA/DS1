@@ -1,0 +1,110 @@
+ERROR - 2024-03-26 20:39:44 --> mysqli_sql_exception: Table 'Trabalho1.geracao1' doesn't exist in /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/app/Controllers/pokecontroler.php(15): CodeIgniter\Model->insert()
+#8 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/CodeIgniter.php(941): App\Controllers\pokecontroler->pokereceive()
+#9 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2024-03-26 20:39:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'Trabalho1.geracao1' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/pokecontroler.php(15): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\pokecontroler->pokereceive()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:39:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'Trabalho1.geracao1' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/pokecontroler.php(15): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\pokecontroler->pokereceive()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:39:44 --> [Caused by] mysqli_sql_exception: Table 'Trabalho1.geracao1' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/pokecontroler.php(15): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\pokecontroler->pokereceive()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:43:03 --> ParseError: syntax error, unexpected variable "$routes"
+in APPPATH/Config/Routes.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:43:26 --> ParseError: syntax error, unexpected variable "$routes"
+in APPPATH/Config/Routes.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:43:54 --> ParseError: syntax error, unexpected variable "$routes"
+in APPPATH/Config/Routes.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:47:41 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->recebercadastro()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:52:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->recebercadastro()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
+CRITICAL - 2024-03-26 20:54:19 --> ErrorException: Undefined variable $data
+in APPPATH/Views/cadastrado.php on line 20.
+ 1 APPPATH/Views/cadastrado.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/app/Views/cadastrado.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->recebercadastro()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/aluno/Documentos/TrabalhoRianKauaCrudCodeigniter/codeigniter4-framework-7d393f8/public/index.php')
